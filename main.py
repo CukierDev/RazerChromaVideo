@@ -101,10 +101,10 @@ def draw():
             print(f"I can't keep up with drawing! ({image})")
 
 def loop():
-    if not args.no_audio:
-        playAudio()
-    draw()
-    loop()
+    while True:
+        if not args.no_audio:
+            playAudio()
+        draw()
 
 if args.loop:
     loop()

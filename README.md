@@ -1,5 +1,5 @@
 # RazerChromaVideo
-Play videos on your razer setup
+Play videos on your razer setup (linux only)
 
 I was bored
 # Requirements
